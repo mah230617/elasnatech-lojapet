@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Maíra Silva Edo">
+    <meta description="Melhor loja para os melhores pets!">
+    <link rel="stylesheet" href="trabalheconosco.css">
+    
+    <title>Trabalhe Conosco</title>
+</head>
+<body>
+    <div class="bg"><img src="imagens/background-contato2.jpg" width="1540px"></div>
+    
+    <div class="try">
+        <div class="title">
+            <p class="main-title">Trabalhe Conosco!</p>
+        </div>
+
+        <div class="menutry">
+            <nav>
+                <ul class="menu">
+                    <li><a href="loja.html" target="_blank">Nossa Loja</a></li>
+                    <li><a href="#">Clientes</a>
+                        <ul>
+                            <li><a href="cliente.html" target="_blank">Seus Dados</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contato.html" target="_blank">Contato</a></li>
+                    <li><a href="fotos.html" target="_blank">Pets Peraltas!</a></li>
+                    <li><a href="trabalheconosco.html" target="_blank">Trabalhe Conosco</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="fieldset">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="nome">Nome completo: </label>
+                </td>
+                <td>
+                    <input type="text" name="nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefone">Telefone: </label>
+                </td>
+                <td>
+                    <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxxx">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nascimento: </label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rg">RG: </label>
+                </td>
+                <td>
+                    <input type="text" name="rg" size="15" maxlength="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>CPF:</label>
+                </td>
+            <td>
+                <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+            </td>
+            </tr>
+                <tr>
+                    <td>
+                        <label for="rua">Rua:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="rua">
+                    </td>
+                    <td>
+                        <label for="numero">Número:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="numero" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bairro">Bairro: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="bairro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="cidade">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="estado">Estado:</label>
+                    </td>
+                    <td>
+                        <select name="estado">
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="se">Sergipe</option>
+                            <option value="sp" selected>São Paulo</option>
+                            <option value="to">Tocantins</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cep">CEP: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Informações Profissionais, Acadêmicas e Redes Sociais</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="experienciaProfissional">Experiência profissional: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="experienciaProfissional" class="infopro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="formacao">Formação: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="formacao" class="infopro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cursosRealizados">Cursos realizados: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="cursosRealizados" class="infopro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="redesSociais">Redes sociais: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="redesSociais" class="infopro">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    <br>
+    <div class="divbuttons">
+        <input type="submit" value="Enviar" class="btn">
+        <input type="reset" value="Limpar" class="btn">
+        
+        <a class="btn" href="index.html">Voltar para página principal</a>
+    </div>
+
+
+
+
+</body>
+</html>

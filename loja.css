@@ -1,0 +1,142 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.bg {
+    position: absolute;
+    object-fit: cover;
+    object-position: top left;
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.menu {
+    margin-top: 0;
+    padding: 10px;
+    text-align: right;
+    background-color: black;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    border: 1px solid white;
+}
+
+.menu a{
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.menu a:hover{
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+}
+
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu li ul{
+    position: absolute;
+    display: none;
+}
+
+
+.menu li ul li{
+    display: block;
+    width: fit-content;
+    color: white;
+}
+
+.message input{
+    width: 230px;
+    height: 100px;
+}
+
+.main-title{
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+    display: inline;
+    border: 0px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px gray;
+    margin-left: 750px;
+}
+
+.try{
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 39px;
+}
+
+.title{
+    align-self: center;
+    display: inline-block;
+}
+
+.menutry{
+    margin-left: 178px;
+}
+
+.menu2 {
+    width: 25%;
+    height: 100%;
+    flex-flow: column wrap;
+    display: flex;
+    gap: 15px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    background-color: #777777;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid white;
+    font-size: 12px;
+    height: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: #363636;
+}
+
+.menu2main{
+    display: flex;
+    height: 100%;
+}
+
+.maincat img{
+    width: 950px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.maincat {
+    padding-left: 1%;
+    width: 100%;
+    padding-top: 35px;
+}
