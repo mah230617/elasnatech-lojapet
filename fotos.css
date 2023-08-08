@@ -14,9 +14,13 @@ body{
 .bg {
     position: absolute;
     object-fit: cover;
-    object-position: top left;
+    object-position: center;
     z-index: -1;
     opacity: 0.5;
+}
+
+.bg img{
+    width: 100%;
 }
 
 

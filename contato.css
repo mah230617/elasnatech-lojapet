@@ -227,4 +227,51 @@ legend {
         width: fit-content;
         color: white;
     }
+
+    .img1{
+        border-radius: 10px;
+        margin: 15px 0 0 15px;
+        border: 1px solid white;
+        width: 9rem;
+    }
+
+    .img2{
+        width: 12.5rem;
+    }
+
+    fieldset{
+        margin: 0 0 0 15px;
+        width: 23rem;
+        font-size: .7rem;
+    }
+    
+    .btn{
+        color: white;
+        background-color: #777777;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border: 1px solid white;
+        font-size: .7rem;
+    }
+    
+    .btn:hover{
+        background-color: #363636;
+    }
+    
+    .divbuttons{
+        margin-left: 15px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    legend {
+        font-weight: bold;
+    }
+    
+    .fieldset{
+        display: inline-block;
+        justify-content: center;
+        gap: 1px;
+    }
 }

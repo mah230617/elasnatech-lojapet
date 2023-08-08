@@ -142,31 +142,6 @@ legend {
         /* border: 2px solid blue; */
     }
 
-    .inicio{
-        background-size:contain;
-        background-repeat: no-repeat;
-        height: 100%;
-        text-align: center;
-        background-position: center;
-        background-image: url(imagens/gato_de_botas2.jpg);
-        /* width: 100%; */
-        /* margin: 0; */
-        /* border: 2px solid blue; */
-    }
-
-    #subtitulo{
-        text-align: center;
-        color: white;
-        font-size: 16px;
-        line-height: 1.5rem;
-        background-color: black;
-        opacity: .7;
-        width: 10rem;
-        padding: .8rem;
-        margin: 3.5rem auto;
-        border-radius: 5px;
-    }
-
     .try{
         display: flex;
         background-color: black;
@@ -239,5 +214,49 @@ legend {
         display: block;
         width: fit-content;
         color: white;
+    }
+
+    fieldset{
+        margin: 0 0 0 15px;
+        width: 23rem;
+        font-size: .7rem;
+    }
+    
+    .btn{
+        color: white;
+        background-color: #777777;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border: 1px solid white;
+        font-size: .7rem;
+    }
+    
+    .btn:hover{
+        background-color: #363636;
+    }
+    
+    .divbuttons{
+        margin-left: 15px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    legend {
+        font-weight: bold;
+    }
+    
+    .fieldset{
+        display: inline-block;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .fullname{
+        width: 15rem;
+    }
+
+    .largerform{
+        width: 15rem;
     }
 }
