@@ -181,7 +181,7 @@ legend {
     .main-title{
         margin: 0;
         /* padding: 4rem; */
-        color: yellow;
+        color: red;
         font-size: 1rem;
     }
     
@@ -238,7 +238,7 @@ legend {
     
     fieldset{
         margin: 0 0 0 15px;
-        width: 22rem;
+        width: 21rem;
         font-size: .7rem;
     }
     
@@ -273,8 +273,8 @@ legend {
     }
     
     .infopro{
-        width: 8rem;
-        height: 3.8rem;
+        width: 10rem;
+        height: 3rem;
     }
 
     .street{
@@ -283,10 +283,6 @@ legend {
 
     .number{
         width: 2rem;
-    }
-    
-    .tdnumber{
-        text-align: left;
     }
 
 }
