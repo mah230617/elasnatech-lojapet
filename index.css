@@ -109,8 +109,8 @@ body{
     margin-left: 148px;
 }
 
-/* mobile */
-@media screen and (max-width: 376px){
+/* mobile  376px*/
+@media screen and (max-width: 276px){
 
     html,
     body{
