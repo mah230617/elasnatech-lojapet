@@ -110,7 +110,7 @@ body{
 }
 
 /* mobile */
-@media screen and (min-width: 100px){
+@media screen and (man-width: 400px){
 
     html,
     body{
