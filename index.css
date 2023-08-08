@@ -11,7 +11,7 @@ body{
     width: 100%;
     }    
 
-#inicio{
+.inicio{
     background-image: url(imagens/gato-de-botas.jpg);
     background-size: cover;
     height: 700px;
@@ -19,7 +19,7 @@ body{
     /* margin: 0; */
 }    
 
-#inicio h1{
+.inicio h1{
     color: white;
     text-align: center;
     font-size: 50px;
@@ -109,14 +109,22 @@ body{
     margin-left: 148px;
 }
 
+/* mobile */
+@media screen and (max-width: 480px){
 
-@media screen and (max-width: 380px){
+    html,
+    body{
+    height: 100%;
+    margin: 0;
+}    
 
     body{
         font-family: sans-serif;
         font-size: 62.5%;
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
+        margin-right: 4rem;
+        /* border: 2px solid blue; */
     }
     
     .bg {
@@ -127,14 +135,23 @@ body{
         opacity: 0.25;
     }
 
-    #inicio{
+    .inicio{
+        background-size:contain;
+        background-repeat: no-repeat;
+        height: 100%;
         text-align: center;
+        background-position: center;
+        background-image: url(imagens/gato_de_botas2.jpg);
+        /* width: 100%; */
+        /* margin: 0; */
+        /* border: 2px solid blue; */
     }
 
     #subtitulo{
         text-align: center;
         color: white;
         font-size: 16px;
+        line-height: 1.5rem;
         background-color: black;
         opacity: .7;
         width: 10rem;

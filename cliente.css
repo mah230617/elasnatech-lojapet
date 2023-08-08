@@ -51,9 +51,8 @@ legend {
 
 .menu {
     margin-top: 0;
-    padding: 10px;
-    text-align: right;
-    background-color: black;
+    padding: 0.75rem;
+    background-color: inherit;
 }
 
 .menu li{
@@ -61,22 +60,22 @@ legend {
     display: inline-block;
     letter-spacing: 2px;
     border: 1px solid white;
+    padding: 0;
 }
 
 .menu a{
     border-radius: 5px;
     background-color: black;
-    padding: 10px;
+    padding: .6rem;
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: .7rem;
 }
 
 .menu a:hover{
     background-color: rgb(65, 65, 65);
-    padding: 10px;
+    padding: .6rem;
 }
-
 
 .menu li:hover ul{
     display: block;
@@ -86,7 +85,6 @@ legend {
     position: absolute;
     display: none;
 }
-
 
 .menu li ul li{
     display: block;
@@ -100,12 +98,13 @@ legend {
     font-size: 16px;
     text-shadow: 2px 2px 2px gray;
     display: inline;
+    margin-left: 1rem;
     border: 0px;
 }
 
-
 .try{
     display: flex;
+    justify-content: end;
     background-color: black;
     margin: 0;
     padding: 0;
@@ -117,15 +116,8 @@ legend {
     display: inline-block;
 }
 
-.main-title{
-    color: white;
-    font-size: 20px;
-    text-shadow: 2px 2px 2px gray;
-    margin-left: 700px;
-}
-
 .menutry{
-    margin-left: 154px;
+    margin-left: 148px;
 }
 
 .fieldset{
