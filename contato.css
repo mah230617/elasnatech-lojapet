@@ -232,11 +232,14 @@ legend {
         border-radius: 10px;
         margin: 15px 0 0 15px;
         border: 1px solid white;
-        width: 9rem;
+        width: 7rem;
     }
 
     .img2{
-        width: 12.5rem;
+        border-radius: 10px;
+        margin: 15px 0 0 15px;
+        border: 1px solid white;
+        width: 9.7rem;
     }
 
     fieldset{

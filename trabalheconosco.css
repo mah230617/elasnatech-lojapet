@@ -133,6 +133,18 @@ legend {
     height: 80px;
 }
 
+.fullname{
+    width: 15rem;
+}
+
+.street{
+    width: 15rem;
+}
+
+.number{
+    width: 4rem;
+}
+
 
 
 
@@ -283,6 +295,11 @@ legend {
 
     .number{
         width: 2rem;
+    }
+
+    td{
+        margin: 0;
+        padding: 0;
     }
 
 }
