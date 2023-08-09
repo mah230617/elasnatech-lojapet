@@ -126,6 +126,18 @@ legend {
     margin-top: 15px;
 }
 
+.fullname{
+    width: 15rem;
+}
+
+.street{
+    width: 15rem;
+}
+
+.number{
+    width: 4rem;
+}
+
 /* mobile  376px*/
 @media screen and (max-width: 376px){
 
@@ -163,7 +175,7 @@ legend {
     .main-title{
         margin: 0;
         /* padding: 4rem; */
-        color: red;
+        color: green;
         font-size: 1.2rem;
     }
     
@@ -264,6 +276,10 @@ legend {
 
     .street{
         width: 8rem;
+    }
+
+    .number{
+        width: 2rem;
     }
 
     td{

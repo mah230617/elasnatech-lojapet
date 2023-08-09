@@ -193,7 +193,7 @@ legend {
     .main-title{
         margin: 0;
         /* padding: 4rem; */
-        color: white;
+        color: green;
         font-size: 1rem;
     }
     
@@ -294,7 +294,7 @@ legend {
     }
 
     .street{
-        width: 4rem;
+        width: 8rem;
     }
 
     .number{
