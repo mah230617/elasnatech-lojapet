@@ -220,7 +220,7 @@ legend {
 
     fieldset{
         margin: 0 0 0 15px;
-        width: 23rem;
+        width: 21rem;
         font-size: .7rem;
     }
     
@@ -255,10 +255,15 @@ legend {
     }
 
     .fullname{
-        width: 15rem;
+        width: 10rem;
     }
 
     .largerform{
-        width: 15rem;
+        width: 10rem;
+    }
+
+    td{
+        margin: 0;
+        padding: 0;
     }
 }
