@@ -141,7 +141,7 @@ legend {
 
     html,
     body{
-    height: 100%;
+    /* height: 100%; */
     margin: 0;
     }    
 
@@ -173,7 +173,7 @@ legend {
     .main-title{
         margin: 0;
         /* padding: 4rem; */
-        color: white;
+        color: yellowgreen;
         font-size: 1.5rem;
     }
     
@@ -277,4 +277,5 @@ legend {
         justify-content: center;
         gap: 1px;
     }
+
 }
