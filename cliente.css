@@ -163,7 +163,7 @@ legend {
     .main-title{
         margin: 0;
         /* padding: 4rem; */
-        color: yellow;
+        color: red;
         font-size: 1.2rem;
     }
     
@@ -260,6 +260,10 @@ legend {
 
     .largerform{
         width: 10rem;
+    }
+
+    .street{
+        width: 8rem;
     }
 
     td{
