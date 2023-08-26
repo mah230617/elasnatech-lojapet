@@ -42,7 +42,7 @@
 }
 
 .lbtn{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .pagebody{
@@ -52,4 +52,10 @@
 
 .bigrounded{
     border-radius: 5rem;
+}
+
+@media screen and (max-width<=576px) {
+    .lbtn{
+        font-size: 1.2rem;
+    } 
 }
