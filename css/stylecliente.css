@@ -85,8 +85,8 @@
     }  */
 
     .pagebody{
-        margin: 5vh 10vw;
+        margin: 2vh 10vw;
         padding: 0;
-        /* border: 1px red solid; */
+        border: 1px red solid;
     }
 }
