@@ -78,7 +78,13 @@
 }
 
 @media screen and (max-width: 576px){
-    .lbtn{
-        font-size: 1.2rem;
-    } 
+    /* .custom-fieldset{
+        font-size: 1.3rem;
+    }  */
+
+    .pagebody{
+        margin: auto 10vw;
+        padding: 0;
+        /* border: 1px red solid; */
+    }
 }
