@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Maíra Silva Edo">
+    <meta description="Melhor loja para os melhores pets!">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylecliente.css">
+
+    <title>Área do Cliente</title>
+</head>
+<body>
+    <section>
+        <div class="container-fluid bg">
+            <div class="bg-mask">
+                <div class="row topmenu d-flex justify-content-center align-items-center">
+                    <div class="col-3 col-sm-2 col-md-1 col-xl-1 text-center">
+                        nome página
+                    </div>
+                    <div class="col-9 col-sm-10 col-md-11 col-xl-11 text-end">
+                        <a href="loja.html" target="_blank"><button type="button" class="btn btn-dark btn-dark-hover border tracking-lettering my-2">Nossa Loja</button></a>
+                        <a href="cliente.html" target="_blank"><button type="button" class="btn btn-dark btn-dark-hover border tracking-lettering my-2 ms-2">Clientes</button></a>
+                        <a href="contato.html" target="_blank"><button type="button" class="btn btn-dark btn-dark-hover border tracking-lettering my-2 ms-2">Contato</button></a>
+                        <a href="fotos.html" target="_blank"><button type="button" class="btn btn-dark btn-dark-hover border tracking-lettering my-2 ms-2">Pets Peraltas!</button></a>
+                        <a href="trabalheconosco.html" target="_blank"><button type="button" class="btn btn-dark btn-dark-hover border tracking-lettering my-2 ms-2">Trabalhe Conosco</button></a>
+                    </div>
+                </div>
+                <div class="row hrow">
+                    <div class="col pagebody">
+                            <fieldset class="custom-fieldset m-2">
+                                <legend class="fw-bold text-center">Dados Pessoais</legend>
+                                <table>
+                                <tr>
+                                    <td><label for="name">Nome Completo:</label></td>
+                                    <td><input type="text" id="name" class="my-1"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="birthdate">Nascimento:</label></td>
+                                    <td><input type="date" id="birthdate" class="my-1"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="rg">RG: </label></td>
+                                    <td><input type="text" id="rg" size="15" maxlength="13" class="my-1"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="cpf">CPF:</label></td>
+                                    <td><input type="text" id="cpf" size="9" maxlength="9" class="my-1"> - <input type="text" name="cpf2" size="2" maxlength="2" class="my-1"></td>
+                                </tr>
+                                </table>
+                            </fieldset>
+                            <fieldset class="custom-fieldset m-2">
+                                <legend class="fw-bold text-center">Dados de Endereço</legend>
+                                <table>
+                                    <tr>
+                                        <td><label for="rua">Rua:</label></td>
+                                        <td>
+                                            <input type="text" id="rua" class="street custom-larger-input" maxlength="5" class="my-1">
+                                            <label for="number">Número:</label>
+                                        </td>
+                                        <td class="custom-td"><input type="text" id="number" class="number custom-number-width my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="neighborhood">Bairro: </label></td>
+                                        <td><input type="text" id="neighborhood" class="custom-larger-input my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="city">Cidade: </label></td>
+                                        <td><input type="text" id="city" class="custom-larger-input my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="uf">Estado:</label></td>
+                                        <td>
+                                            <select id="uf">
+                                                <option value="ac">Acre</option>
+                                                <option value="al">Alagoas</option>
+                                                <option value="am">Amazonas</option>
+                                                <option value="ap">Amapá</option>
+                                                <option value="ba">Bahia</option>
+                                                <option value="ce">Ceará</option>
+                                                <option value="df">Distrito Federal</option>
+                                                <option value="es">Espírito Santo</option>
+                                                <option value="go">Goiás</option>
+                                                <option value="ma">Maranhão</option>
+                                                <option value="mt">Mato Grosso</option>
+                                                <option value="ms">Mato Grosso do Sul</option>
+                                                <option value="mg">Minas Gerais</option>
+                                                <option value="pa">Pará</option>
+                                                <option value="pb">Paraíba</option>
+                                                <option value="pr">Paraná</option>
+                                                <option value="pe">Pernambuco</option>
+                                                <option value="pi">Piauí</option>
+                                                <option value="rj">Rio de Janeiro</option>
+                                                <option value="rn">Rio Grande do Norte</option>
+                                                <option value="ro">Rondônia</option>
+                                                <option value="rs">Rio Grande do Sul</option>
+                                                <option value="rr">Roraima</option>
+                                                <option value="sc">Santa Catarina</option>
+                                                <option value="se">Sergipe</option>
+                                                <option value="sp" selected>São Paulo</option>
+                                                <option value="to">Tocantins</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="cep">CEP: </label></td>
+                                        <td><input type="text" id="cep" size="5" maxlength="5" class="my-1"> - <input type="text" id="cep2" size="3" maxlength="3" class="my-1"></td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                            <fieldset class="custom-fieldset m-2">
+                                <legend class="fw-bold text-center">Dados de login</legend>
+                                <table>
+                                    <tr>
+                                        <td><label for="email">E-mail: </label></td>
+                                        <td><input type="text" id="email" placeholder="seumelhor@email.com" class="my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="login">Login de usuário: </label></td>
+                                        <td><input type="text" id="login" class="my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="pw">Senha: </label></td>
+                                        <td><input type="password" id="pw" class="my-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="pwconfirm">Confirme a senha: </label></td>
+                                        <td><input type="password" id="pwconfirm" class="my-1"></td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                            <div class="divbuttons">
+                                <input type="submit" value="Enviar" class="btn btn-success">
+                                <input type="reset" value="Limpar" class="btn btn-danger">
+                                
+                                <a class="btn btn-secondary" href="index.html">Voltar para página principal</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
