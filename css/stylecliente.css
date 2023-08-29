@@ -82,7 +82,8 @@
     } 
 
     .pagebody{
-        margin: 2vh 10vw;
+        margin: 2vh 8vw;
         padding: 0;
+        border: solid 2px red;
     }
 }
