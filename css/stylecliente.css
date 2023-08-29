@@ -42,10 +42,12 @@
     margin: 0;
     height: 100vh;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
+    /* border: 2px pink solid; */
 }
 
 .pagebody{
+    /* border: 1px blue solid; */
     margin: auto 37%;
     padding: 0;
 }
@@ -83,7 +85,7 @@
     }  */
 
     .pagebody{
-        margin: auto 10vw;
+        margin: 5vh 10vw;
         padding: 0;
         /* border: 1px red solid; */
     }
