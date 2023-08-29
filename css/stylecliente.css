@@ -42,12 +42,9 @@
     margin: 0;
     height: 100vh;
     width: 100%;
-    /* align-items: center; */
-    /* border: 2px pink solid; */
 }
 
 .pagebody{
-    /* border: 1px blue solid; */
     margin: auto 37%;
     padding: 0;
 }
@@ -81,12 +78,11 @@
 
 @media screen and (max-width: 576px){
     .custom-fieldset{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     } 
 
     .pagebody{
         margin: 2vh 10vw;
         padding: 0;
-        border: 1px red solid;
     }
 }
