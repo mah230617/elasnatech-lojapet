@@ -67,13 +67,41 @@
     align-items: center;
 }
 
+.img1{
+    width: 23vh;
+    border-radius: 10px;
+}
+
+.img2{
+    border-radius: 10px;
+    width: 32vh;
+}
+
 @media screen and (max-width: 576px){
     .custom-fieldset{
         font-size: 1.2rem;
     } 
 
     .pagebody{
-        margin: 2vh 10vw;
+        margin: 2vh 8vw;
         padding: 0;
+        border: solid 2px red;
+    }
+
+    .imgs{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1{
+        width: 16vh;
+        border-radius: 10px;
+    }
+    
+    .img2{
+        border-radius: 10px;
+        width: 22vh;
     }
 }
