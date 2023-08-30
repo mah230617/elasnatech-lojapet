@@ -32,25 +32,25 @@
                             <img src="images/contato.jpg" alt="" class="img1">
                             <img src="images/contato2.jpg" alt="" class="img2">
                         </div>
-                        <form name="contact-form" action="">
-                            <fieldset class="custom-fieldset m-2">
+                        <form name="contact-form" action="" class="needs-validation">
+                            <fieldset class="custom-fieldset m-2 p-2">
                                 <legend class="fw-bold text-center mb-3">Formulário de Contato</legend>
                                 <table>
                                     <tr>
                                         <td><label for="name" class="form-label">Nome completo:</label></td>
-                                        <td><input type="text" id="name" class="my-1 custom-larger-input form-control"></td>
+                                        <td><input type="text" id="name" class="my-1 custom-larger-input form-control" required></td>
                                     </tr>
                                     <tr>
-                                        <td><label for="phone" class="form-label">Telefone: </label></td>
+                                        <td><label for="phone" class="form-label">Telefone:</label></td>
                                         <td><input type="text" id="phone" class="my-1 custom-larger-input form-control"></td>
                                     </tr>
                                     <tr>
-                                        <td><label for="email" class="form-label">E-mail: </label></td>
-                                            <td><input type="text" id="email" placeholder="seumelhor@email.com" class="my-1 custom-larger-input form-control"></td>
+                                        <td><label for="email" class="form-label">E-mail:</label></td>
+                                            <td><input type="email" id="email" placeholder="seumelhor@email.com" class="my-1 custom-larger-input form-control" required></td>
                                     </tr>
                                     <tr>
-                                        <td><label for="message" class="form-label">Mensagem: </label></td>
-                                        <td><textarea id="message" rows="6" class="my-1 custom-larger-input form-control"></textarea></td>
+                                        <td><label for="message" class="form-label">Mensagem:</label></td>
+                                        <td><textarea id="message" rows="6" class="my-1 custom-larger-input form-control" required></textarea></td>
                                     </tr>
                                 </table>
                             </fieldset>
