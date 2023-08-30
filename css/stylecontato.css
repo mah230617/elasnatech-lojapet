@@ -67,13 +67,16 @@
     align-items: center;
 }
 
-.img1{
-    width: 23vh;
+.imgs img{
+    border: solid 2px white;
     border-radius: 10px;
 }
 
+.img1{
+    width: 23vh;
+}
+
 .img2{
-    border-radius: 10px;
     width: 32vh;
 }
 
@@ -97,11 +100,9 @@
 
     .img1{
         width: 16vh;
-        border-radius: 10px;
     }
     
     .img2{
-        border-radius: 10px;
         width: 22vh;
     }
 }

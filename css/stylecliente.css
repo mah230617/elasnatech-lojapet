@@ -57,7 +57,7 @@
     width: 80%;
 }
 
-.custom-td{
+.custom-td-number{
     text-align: end;
     width: 12%;
 }
@@ -89,5 +89,9 @@
 
     .custom-larger-input{
         width: 75%;
+    }
+
+    .custom-td-street{
+        width: 62%;
     }
 }
