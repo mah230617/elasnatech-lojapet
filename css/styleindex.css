@@ -21,6 +21,14 @@
     color: white;
 }
 
+.logo{
+    width: 1.9vw;
+}
+
+.shoppingcart{
+    width: .9vw;
+}
+
 .tracking-lettering{
     letter-spacing: .2rem;
 }
@@ -46,4 +54,15 @@
     padding: .8rem;
     margin: auto;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width: 576px){
+    .logo{
+        width: 13vw;
+    }
+
+    .shoppingcart{
+        width: 3.3vw;
+    }
 }
