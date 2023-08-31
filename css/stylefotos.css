@@ -30,6 +30,10 @@
     color: white;
 }
 
+.logo{
+    width: 1.9vw;
+}
+
 .tracking-lettering{
     letter-spacing: .2rem;
 }
@@ -73,7 +77,10 @@
 }
 
 @media screen and (max-width: 576px){
-
+    .logo{
+        width: 13vw;
+    }
+    
     .img1{
         width: 85vw;
     }

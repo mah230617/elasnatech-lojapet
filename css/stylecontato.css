@@ -30,6 +30,10 @@
     color: white;
 }
 
+.logo{
+    width: 1.9vw;
+}
+
 .tracking-lettering{
     letter-spacing: .2rem;
 }
@@ -52,10 +56,6 @@
 
 .custom-fieldset{
     border: 1px solid #b6b6b6;
-}
-
-.custom-larger-input{
-    width: 30vh;
 }
 
 .divbuttons{
@@ -82,6 +82,10 @@
 }
 
 @media screen and (max-width: 576px){
+    .logo{
+        width: 13vw;
+    }
+    
     .custom-fieldset{
         font-size: 1.2rem;
     } 
