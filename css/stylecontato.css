@@ -86,7 +86,8 @@
         width: 13vw;
     }
     
-    .custom-fieldset{
+    .custom-fieldset,
+    .localization{
         font-size: 1.2rem;
     } 
 
