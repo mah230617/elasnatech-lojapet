@@ -66,3 +66,9 @@
         width: 3.3vw;
     }
 }
+
+@media screen and (max-width: 992px){
+    .shoppingcart{
+        width: 3.3vw;
+    }
+}
