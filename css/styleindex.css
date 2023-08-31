@@ -56,6 +56,15 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 992px){
+    .fixedsize{
+        width: fit-content;
+    }
+
+    .shoppingcart{
+        width: 1.5vw;
+    }
+}
 
 @media screen and (max-width: 576px){
     .logo{
@@ -65,16 +74,4 @@
     .shoppingcart{
         width: 3.2vw;
     }
-}
-
-@media screen and (max-width: 992px){
-    .fixedsize{
-        width: fit-content;
-    }
-
-    .shoppingcart{
-        width: 1.5vw;
-    }
-
-    
 }

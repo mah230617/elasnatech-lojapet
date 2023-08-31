@@ -85,6 +85,16 @@
     width: 32vh;
 }
 
+@media screen and (max-width: 992px){
+    .fixedsize{
+        width: fit-content;
+    }
+
+    .shoppingcart{
+        width: 1.5vw;
+    }
+}
+
 @media screen and (max-width: 576px){
     .logo{
         width: 13vw;
