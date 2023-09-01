@@ -74,6 +74,10 @@
     .shoppingcart{
         width: 1.5vw;
     }
+    
+    .biglogo{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -83,5 +87,9 @@
 
     .shoppingcart{
         width: 3.2vw;
+    }
+
+    .biglogo{
+        width: 60%;
     }
 }
