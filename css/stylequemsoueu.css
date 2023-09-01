@@ -94,7 +94,13 @@
 
     .social-icon{
         height: 6vh;
-        border: black 3px solid;
+    }
+}
+
+@media screen and (max-width: 576px) and (orientation: landscape) {
+    .social-icon{
+        height: 10vh;
+        border: solid green 1px;
     }
 }
 
