@@ -93,6 +93,10 @@
         border: solid 1px #71D16D;
         width: 30%;
     }
+
+    .social-icon{
+        height: 6vh;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -111,5 +115,9 @@
 
     .profilephoto{
         width: 50%;
+    }
+
+    .social-icon{
+        height: 4vh;
     }
 }
