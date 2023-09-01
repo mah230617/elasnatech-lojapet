@@ -117,10 +117,11 @@
     .pagebody{
         margin: 2vh 8vw;
         padding: 0;
+        border: red solid 2px;
     }
 
     .profilephoto{
-        width: 50%;
+        width: 45%;
     }
 
     .social-icon{
