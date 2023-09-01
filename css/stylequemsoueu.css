@@ -87,6 +87,12 @@
         margin: auto 20%;
         padding: 0;
     }
+
+    .profilephoto{
+        border-radius: 50%;
+        border: solid 1px #71D16D;
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 576px){
