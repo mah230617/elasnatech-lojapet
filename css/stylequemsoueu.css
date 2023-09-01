@@ -58,7 +58,7 @@
     margin: auto 37%;
     padding: 0;
     text-align: center;
-    border: 2px blue solid;
+    border: 2px red solid;
 }
 
 .profilephoto{
@@ -115,13 +115,13 @@
     }
     
     .pagebody{
-        margin: 2vh 8vw;
+        margin: 2vh 3vw;
         padding: 0;
-        border: red solid 2px;
+        border: blue solid 2px;
     }
 
     .profilephoto{
-        width: 45%;
+        width: 45vw;
     }
 
     .social-icon{
