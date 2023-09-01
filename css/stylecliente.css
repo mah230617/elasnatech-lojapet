@@ -81,6 +81,11 @@
     .shoppingcart{
         width: 1.5vw;
     }
+
+    .pagebody{
+    margin: auto 20%;
+    padding: 0;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -102,8 +107,11 @@
     }
 }
 
-/* Adicione esta regra de mídia no seu CSS para telas pequenas em landscape */
 @media screen and (max-width: 576px) and (orientation: landscape) {
+
+    .pagebody{
+        border: 1px green solid;
+    }
     .custom-fieldset {
         width: 50%; /* Defina a largura desejada para que dois fieldsets caibam lado a lado */
         float: left; /* Alinhe os fieldsets à esquerda */
