@@ -55,15 +55,16 @@
 }
 
 .pagebody{
-    margin: auto 30%;
+    margin: auto 37%;
     padding: 0;
     text-align: center;
+    border: 2px blue solid;
 }
 
 .profilephoto{
     border-radius: 50%;
     border: solid 1px #71D16D;
-    width: 70%;
+    width: 80%;
 }
 
 .quem{
@@ -97,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 576px) and (orientation: landscape) {
+@media screen and (max-width: 992px) and (orientation: landscape) {
     .social-icon{
         height: 10vh;
         border: solid green 1px;
