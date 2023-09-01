@@ -55,7 +55,7 @@
 }
 
 .pagebody{
-    margin: auto 37%;
+    margin: auto 30%;
     padding: 0;
 }
 
@@ -80,6 +80,11 @@
 
     .shoppingcart{
         width: 1.5vw;
+    }
+
+    .pagebody{
+        margin: auto 20%;
+        padding: 0;
     }
 }
 
