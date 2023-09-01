@@ -88,8 +88,12 @@
     .shoppingcart{
         width: 3.2vw;
     }
+    
+    .title{
+        font-size: 6rem;
+    }
 
     .biglogo{
-        width: 60%;
+        width: 70%;
     }
 }
