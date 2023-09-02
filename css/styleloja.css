@@ -58,12 +58,19 @@
 }
 
 .pagebody{
-    /* margin: auto 30%; */
+    margin: 2% 2%;
     padding: 0;
 }
 
-.bigrounded{
-    border-radius: 5rem;
+.product{
+    display: flex;
+    gap: 25px;
+}
+
+.product img{
+    width: 12vw;
+    border-radius: 10%;
+    border: .5px solid gray;
 }
 
 @media screen and (max-width: 992px){
