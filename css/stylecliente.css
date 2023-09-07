@@ -57,6 +57,7 @@
 .pagebody{
     margin: auto 30%;
     padding: 0;
+    /* width: 5px; */
 }
 
 .custom-fieldset{

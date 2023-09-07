@@ -7,6 +7,7 @@
     <meta description="Melhor loja para os melhores pets!">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styleloja.css">
+    <script src="js/bootstrap.min.js"></script>
 
     <title>Loja Pet</title>
 </head>
@@ -42,7 +43,28 @@
                         <input type="submit" value="Adicionar" class="btn btn-success">
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 product">
-                        <a href="product3.html"><img src="productimages/arranhador1.jpg" alt="arranhador"></a>
+                        <!-- <a href="product3.html"><img src="productimages/arranhador1.jpg" alt="arranhador"></a> -->
+                        <div id="carouselExample" class="carousel slide carousel-dark">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="productimages/arranhador1.jpg" class="d-block mx-auto my-auto" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="productimages/arranhador2.webp" class="d-block mx-auto my-auto" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="productimages/arranhador3.jpg" class="d-block mx-auto my-auto" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                         <p class="productname">Arranhador</p>
                         <p class="price">R$80,00</p>
                         <input type="submit" value="Adicionar" class="btn btn-success">
@@ -102,6 +124,9 @@
                         <input type="submit" value="Adicionar" class="btn btn-success">
                     </div>
                 </div>
+            
+                
+            
             </div>
         </div>
     </section>
