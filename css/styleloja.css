@@ -88,6 +88,15 @@
     padding: 1% 2%;
 }
 
+.price{
+    background-color: rgba(118, 209, 115, 0.6);
+    width: fit-content;
+    margin: 2% auto;
+    padding: 1% 2%;
+    color: black;
+    font-size: 1.57rem;
+}
+
 .carousel-item {
     height: 42vh;
     /* border: 1px solid red; */
@@ -160,7 +169,7 @@
     
     .product{
         margin: 2% auto;
-        height: 28%;
+        height: 29%;
         font-size: 1.2rem;
         width: 40%;
     }
@@ -170,6 +179,6 @@
     }
 
     .carousel-item {
-        height: 21.5vh;
+        height: 23vh;
     }
 }
