@@ -101,7 +101,7 @@
     .pagebody{
         margin: 2vh 8vw;
         padding: 0;
-        height: 100%;
+        width: 100%;
     }
     
     .custom-fieldset{

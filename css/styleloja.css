@@ -64,7 +64,7 @@
 .product{
     background-color: rgba(0, 0, 0, 0.1);
     padding-top: .8rem;
-    margin: 1% auto 0;
+    margin: .8% auto 0;
     height: 55.5vh;
     width: 15%;
     border-radius: 10px;
@@ -95,6 +95,7 @@
     padding: 1% 2%;
     color: black;
     font-size: 1.57rem;
+    font-weight: 550;
 }
 
 .carousel-item {
@@ -145,10 +146,10 @@
     }  
     
     .product{
-        margin: 2% auto;
+        margin: 1.8% auto;
         height: 48vh;
         font-size: 1.2rem;
-        width: 30%;
+        width: 35%;
     }
     
     .product img{
