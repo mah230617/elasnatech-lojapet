@@ -63,7 +63,7 @@
 
                             <fieldset class="custom-fieldset m-2 p-2">
                                 <legend class="fw-bold text-center">Dados de Endereço</legend>
-                                <table>
+                                <table style="width: 100%;">
                                     <tr>
                                         <td class="row">
                                             <td class="col-2"><label for="rua" class="form-label">Rua:</label></td>
@@ -84,10 +84,10 @@
                                     </tr>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="uf" class="form-label">Estado:</label></td>
-                                            <td class="col-9">
+                                            <td class="col-2"><label for="uf" class="form-label">Estado:</label></td>
+                                            <td class="col-10">
                                                 <select id="uf" class="form-control" required>
-                                                    <option value="" selected>Selecione um estado</option>
+                                                    <option value="" disabled>Selecione um estado</option>
                                                     <option value="ac">Acre</option>
                                                     <option value="al">Alagoas</option>
                                                     <option value="am">Amazonas</option>
@@ -121,8 +121,8 @@
                                     </tr>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="cep" class="form-label">CEP: </label></td>
-                                            <td class="col-9"><input type="text" id="cep" size="9" maxlength="9" class="my-1 form-control" required></td>
+                                            <td class="col-2"><label for="cep" class="form-label">CEP: </label></td>
+                                            <td class="col-10"><input type="text" id="cep" size="9" maxlength="9" class="my-1 form-control" required></td>
                                         </td>
                                     </tr>
                                 </table>
@@ -132,26 +132,26 @@
                                 <table>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="email" class="form-label">E-mail: </label></td>
-                                            <td class="col-9"><input type="email" id="email" placeholder="seumelhor@email.com" class="my-1 form-control" required></td>
+                                            <td class="col-2"><label for="email" class="form-label">E-mail: </label></td>
+                                            <td class="col-10"><input type="email" id="email" placeholder="seumelhor@email.com" class="my-1 form-control" required></td>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="login" class="form-label">Login de usuário: </label></td>
-                                            <td class="col-9"><input type="text" id="login" class="my-1 form-control" required></td>
+                                            <td class="col-2"><label for="login" class="form-label">Login de usuário: </label></td>
+                                            <td class="col-10"><input type="text" id="login" class="my-1 form-control" required></td>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="pw" class="form-label">Senha: </label></td>
-                                            <td class="col-9"><input type="password" id="pw" class="my-1 form-control" required></td>
+                                            <td class="col-2"><label for="pw" class="form-label">Senha: </label></td>
+                                            <td class="col-10"><input type="password" id="pw" class="my-1 form-control" required></td>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="row">
-                                            <td class="col-3"><label for="pwconfirm" class="form-label">Confirme a senha: </label></td>
-                                            <td class="col-9"><input type="password" id="pwconfirm" class="my-1 form-control" required></td>
+                                            <td class="col-2"><label for="pwconfirm" class="form-label">Confirme a senha: </label></td>
+                                            <td class="col-10"><input type="password" id="pwconfirm" class="my-1 form-control" required></td>
                                         </td>
                                     </tr>
                                 </table>

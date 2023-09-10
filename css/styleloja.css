@@ -168,7 +168,7 @@
     
     .product{
         margin: 2% auto;
-        height: 36%;
+        height: 40%;
         font-size: 1.2rem;
         width: 45%;
     }
@@ -178,7 +178,7 @@
     }
 
     .carousel-item {
-        height: 27vh;
+        height: 29vh;
     }
 
     .price{
@@ -186,7 +186,7 @@
     }
 
     .custom-product-height{
-        height: 32.5vh;
+        height: 33.5vh;
         /* font-size: 1.2rem; */
         /* border: 1px solid red; */
     }
