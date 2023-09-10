@@ -49,7 +49,7 @@
 
 .hrow{
     padding: 0;
-    margin: 0 35%;
+    margin: 0 36%;
 }
 
 .pagebody{
@@ -68,6 +68,10 @@
     gap: 3px;
     justify-content: center;
     align-items: center;
+}
+
+.imgs{
+    gap: 6%;
 }
 
 .imgs img{
