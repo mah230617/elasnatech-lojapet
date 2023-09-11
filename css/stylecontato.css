@@ -96,8 +96,12 @@
         width: 1.5vw;
     }
     
+    .hrow{
+        margin: 0 20%;
+    }
+
     .pagebody{
-        margin: auto 20%;
+        /* margin: auto 20%; */
         padding: 0;
     }
 }
@@ -111,10 +115,9 @@
         width: 3.3vw;
     }
     
-    .custom-fieldset,
-    .localization{
-        font-size: 1.2rem;
-    } 
+    .hrow{
+        margin: 0 3%;
+    }
 
     .pagebody{
         /* margin: 2vh 8vw; */
@@ -135,5 +138,10 @@
     
     .img2{
         width: 22vh;
+    }
+
+    .custom-fieldset,
+    .localization{
+        font-size: 1.2rem;
     }
 }
