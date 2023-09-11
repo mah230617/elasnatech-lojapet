@@ -168,7 +168,7 @@
     
     .product{
         margin: 2% auto;
-        height: 44%;
+        height: 50%;
         font-size: 1.2rem;
         width: 45%;
     }
@@ -186,7 +186,7 @@
     }
 
     .custom-product-height{
-        height: 33.5vh;
+        height: 32.5vh;
         /* font-size: 1.2rem; */
         /* border: 1px solid red; */
     }
