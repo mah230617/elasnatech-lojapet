@@ -57,11 +57,15 @@
 }
 
 .footer{
-    background-color: gray;
-    color: #ccc;
+    /* background-color: rgb(203, 203, 203); */
+    /* color: white; */
     font-size: 1rem;
     /* display: flex; */
     /* align-items: end; */
+    position: fixed;
+    bottom: 0;
+    padding: .3rem;
+
 }
 
 @media screen and (max-width: 992px){
