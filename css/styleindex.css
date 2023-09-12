@@ -1,52 +1,3 @@
-:root{
-    font-size: 62.5%;
-    font-family: sans-serif;
-}
-
-.container-fluid{
-    padding: 0;
-    margin:0;
-    font-size: 1.4rem;
-}
-
-.bg{
-    background: url(../images2/bg2.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.bg-mask{
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 100vh;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-y: auto;
-}
-
-.topmenu{
-    background-color: black;
-    color: white;
-    margin: 0;
-}
-
-.logo{
-    width: 1.9vw;
-}
-
-.shoppingcart{
-    width: .9vw;
-}
-
-.tracking-lettering{
-    letter-spacing: .2rem;
-}
-
-.btn-dark-hover:hover{
-    background-color: grey;
-}
-
 .title{
     color: white;
     text-align: center;
@@ -67,28 +18,12 @@
 }
 
 @media screen and (max-width: 992px){
-    .fixedsize{
-        width: fit-content;
-    }
-
-    .shoppingcart{
-        width: 1.5vw;
-    }
-    
     .biglogo{
         width: 70%;
     }
 }
 
 @media screen and (max-width: 576px){
-    .logo{
-        width: 13vw;
-    }
-
-    .shoppingcart{
-        width: 3.2vw;
-    }
-    
     .title{
         font-size: 5.5rem;
     }

@@ -1,0 +1,107 @@
+.hrow{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.product{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: .8rem;
+    margin: .8% auto 0;
+    height: 55.5vh;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.product:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.product img{
+    width: 12vw;
+    border-radius: 10%;
+    border: .5px solid gray;
+}
+
+.productname{
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: fit-content;
+    margin: 2% auto;
+    padding: 1% 2%;
+}
+
+.price{
+    background-color: rgba(118, 209, 115, 0.6);
+    width: fit-content;
+    margin: 2% auto;
+    padding: 1% 2%;
+    color: black;
+    font-size: 1.57rem;
+    font-weight: 550;
+}
+
+.carousel-item {
+    height: 42vh;
+}
+
+.carousel-item .product .productname {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.custom-product-height{
+    height: 42.5vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: .8rem;
+    margin: 1% auto 0;
+    font-size: 1.2rem;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.custom-carousel-item-height{
+    height: 29vh;
+}
+
+@media screen and (max-width: 992px){
+    .product{
+        margin: 1.8% auto;
+        height: 48vh;
+        font-size: 1.2rem;
+        width: 35%;
+    }
+    
+    .product img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .product{
+        margin: 2% auto;
+        height: 50%;
+        font-size: 1.2rem;
+        width: 45%;
+    }
+
+    .product img{
+        width: 90%;
+    }
+
+    .carousel-item {
+        height: 29vh;
+    }
+
+    .price{
+        font-size: 1.2rem;
+    }
+
+    .custom-product-height{
+        height: 32.5vh;
+    }
+    
+    .custom-carousel-item-height{
+        height: 20vh;
+    }
+}

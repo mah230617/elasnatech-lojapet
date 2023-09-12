@@ -1,61 +1,3 @@
-:root{
-    font-size: 62.5%;
-    font-family: sans-serif;
-}
-
-.container-fluid{
-    padding: 0;
-    margin:0;
-    font-size: 1.4rem;
-}
-
-.bg{
-    background: url(../images/background-contato2.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-}
-
-.bg-mask{
-    background-color: rgba(255, 255, 255, 0.8);
-    height: 100vh;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-y: auto;
-}
-
-.topmenu{
-    background-color: black;
-    color: white;
-    margin: 0;
-}
-
-.logo{
-    width: 1.9vw;
-}
-
-.shoppingcart{
-    width: .9vw;
-}
-
-.tracking-lettering{
-    letter-spacing: .2rem;
-}
-
-.btn-dark-hover:hover{
-    background-color: grey;
-}
-
-.hrow{
-    padding: 0;
-    margin: 0 36%;
-}
-
-.pagebody{
-    padding: 0;
-}
-
 .custom-fieldset{
     border: 1px solid #b6b6b6;
 }
@@ -88,7 +30,7 @@
 }
 
 @media screen and (max-width: 992px){
-    .fixedsize{
+    /* .fixedsize{
         width: fit-content;
     }
 
@@ -101,30 +43,11 @@
     }
 
     .pagebody{
-        /* margin: auto 20%; */
         padding: 0;
-    }
+    } */
 }
 
 @media screen and (max-width: 576px){
-    .logo{
-        width: 13vw;
-    }
-
-    .shoppingcart{
-        width: 3.3vw;
-    }
-    
-    .hrow{
-        margin: 0 3%;
-    }
-
-    .pagebody{
-        /* margin: 2vh 8vw; */
-        padding: 0;
-        /* height: 100%; */
-    }
-
     .imgs{
         display: flex;
         gap: 10px;
