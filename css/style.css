@@ -19,6 +19,7 @@
 .bg-mask{
     background-color: rgba(255, 255, 255, 0.8);
     height: 100vh;
+    width: 100%;
     padding: 0;
     margin: 0;
     overflow-y: auto;
@@ -48,53 +49,12 @@
 
 .hrow{
     padding: 0;
-    margin: 0;
-    width: 100%;
+    margin: 0 36%;
 }
 
-.product{
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-top: .8rem;
-    margin: 1% auto 0;
-    height: 42.5vh;
-    font-size: 1.2rem;
-    width: 15%;
-    border-radius: 10px;
+.pagebody{
+    padding: 0;
 }
-
-.product:hover{
-    background-color: rgba(0, 0, 0, .2);
-}
-
-.product img{
-    width: 12vw;
-    border-radius: 10%;
-    border: .5px solid gray;
-}
-
-.productname{
-    background-color: rgba(255, 255, 255, 0.6);
-    width: fit-content;
-    margin: 2% auto;
-    padding: 1% 2%;
-}
-
-.carousel-item {
-    height: 30vh;
-}
-
-.carousel-item .product {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-.carousel-item .product .productname {
-    font-size: 1.8rem;
-    margin-top: 1.5rem;
-}
-
 
 @media screen and (max-width: 992px){
     .fixedsize{
@@ -103,17 +63,15 @@
 
     .shoppingcart{
         width: 1.5vw;
-    }  
-    
-    .product{
-        margin: 2% auto;
-        height: 48vh;
-        font-size: 1.2rem;
-        width: 30%;
     }
     
-    .product img{
-        width: 90%;
+    .hrow{
+        margin: 0 20%;
+    }
+
+    .pagebody{
+        /* margin: auto 20%; */
+        padding: 0;
     }
 }
 
@@ -121,23 +79,16 @@
     .logo{
         width: 13vw;
     }
-    
+
     .shoppingcart{
         width: 3.3vw;
     }
     
-    .product{
-        margin: 2% auto;
-        height: 28%;
-        font-size: 1.2rem;
-        width: 40%;
+    .hrow{
+        margin: 0 3%;
     }
 
-    .product img{
-        width: 90%;
-    }
-
-    .carousel-item {
-        height: 21.5vh;
+    .pagebody{
+        padding: 0;
     }
 }
