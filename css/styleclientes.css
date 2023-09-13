@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 992px){
     .pagebody{
-        width: 90%;
-        border: 1px solid blue;
+        width: 75%;
+        border: 1px solid red;
     }
 }
 

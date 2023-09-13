@@ -19,12 +19,20 @@
     padding: .8rem;
     margin: auto;
     border-radius: 5px;
-    border: 1px solid blue;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 992px){
+    .title{
+        font-size: 5rem;
+    }
+
+    .subtitle{
+        font-size: 1.2rem;
+    }
+    
     .biglogo{
-        height: 60%;
+        height: 40%;
     }
 }
 
