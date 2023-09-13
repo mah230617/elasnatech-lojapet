@@ -32,6 +32,7 @@
 @media screen and (max-width: 992px){
     .pagebody{
         margin: auto 10%;
+        border: 1px solid red;
     }
 }
 
