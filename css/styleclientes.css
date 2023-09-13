@@ -1,7 +1,6 @@
 .hrow{
     padding: 0;
     margin: 0;
-    /* height: 100vh; */
 }
 
 .pagebody{
@@ -26,7 +25,6 @@
 @media screen and (max-width: 992px){
     .pagebody{
         margin: auto 20%;
-        padding: 0;
     }
 }
 
