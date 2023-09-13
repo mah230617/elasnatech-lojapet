@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-.pagebody{
-    margin: auto 30%;
-    padding: 0;
-}
-
 .custom-fieldset{
     border: 1px solid #b6b6b6;
 }
@@ -24,8 +19,8 @@
 
 @media screen and (max-width: 992px){
     .pagebody{
-        margin: 0;
-        border: 1px solid red;
+        width: 90%;
+        border: 1px solid blue;
     }
 }
 
