@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width: 576px){
+    .pagebody{
+        margin: auto 5%;
+    }
+
     .imgs{
         display: flex;
         gap: 10px;
