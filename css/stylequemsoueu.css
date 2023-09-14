@@ -34,7 +34,7 @@
     }
 
     .social-icon{
-        height: 8vh;
+        height: 10vh;
         padding-bottom: 2%;
     }
 }
@@ -54,6 +54,6 @@
     }
 
     .back{
-        margin: .5rem auto 2rem;
+        margin: 0 auto 2rem;
     }
 }

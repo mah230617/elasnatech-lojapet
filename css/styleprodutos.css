@@ -71,7 +71,7 @@
 @media screen and (max-width: 992px){
     .product{
         margin: 1.8% auto;
-        height: 100vh;
+        height: 98vh;
         font-size: 1.2rem;
         width: 30%;
     }
@@ -81,7 +81,7 @@
     }
     
     .carousel-item {
-        height: 65vh;
+        height: 67vh;
     }
     
     .custom-product-height{
@@ -98,7 +98,7 @@
 @media screen and (max-width: 576px){
     .product{
         margin: 2% auto;
-        height: 45vh;
+        height: 43vh;
         font-size: 1.2rem;
         width: 45%;
     }
@@ -124,6 +124,6 @@
     }
 
     .back{
-        margin: 2% auto 4%;
+        margin: 1% auto 6%;
     }
 }

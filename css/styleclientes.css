@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 992px){
     .pagebody{
-        width: 100vw;
+        width: 80vw;
         margin: auto 5%;
     }
 }
