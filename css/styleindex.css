@@ -23,15 +23,15 @@
 
 @media screen and (max-width: 992px){
     .title{
-        font-size: 5rem;
+        font-size: 3.5rem;
     }
 
     .subtitle{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .biglogo{
-        height: 35vh;
+        height: 45vh;
     }
 }
 

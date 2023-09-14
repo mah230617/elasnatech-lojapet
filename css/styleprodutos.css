@@ -98,7 +98,7 @@
 @media screen and (max-width: 576px){
     .product{
         margin: 2% auto;
-        height: 50vh;
+        height: 45vh;
         font-size: 1.2rem;
         width: 45%;
     }
@@ -124,6 +124,6 @@
     }
 
     .back{
-        margin: 2% auto;
+        margin: 2% auto 4%;
     }
 }

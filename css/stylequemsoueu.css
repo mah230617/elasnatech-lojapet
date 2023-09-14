@@ -52,4 +52,8 @@
     .social-icon{
         height: 5vh;
     }
+
+    .back{
+        margin: .5rem auto 2rem;
+    }
 }
