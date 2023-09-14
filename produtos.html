@@ -330,7 +330,7 @@
 
 
           <div class="col-12 col-sm-6 col-md-5 col-xl-3 product custom-product-height">
-            <div id="carouselCamaJanela" class="carousel slide carousel-dark custom-carousel-item-height">
+            <div id="carouselCamaJanela" class="custom-carousel-item-height carousel slide carousel-dark">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="productimages/camajanela1.jpg" class="d-block mx-auto my-auto" alt="...">
@@ -355,7 +355,26 @@
             </div>
             <p class="productname">Cama de Janela</p>
             <p class="price">R$150,00</p>
-            <input type="submit" value="Adicionar" class="btn btn-success">
+            <input type="submit" value="Comprar" class="btn btn-success">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#camaJanela">
+              Detalhes
+            </button>
+            <div class="modal fade" id="camaJanela" tabindex="-1" role="dialog" aria-labelledby="camaJanelaModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="camaJanelaModalLabel">Detalhes da Cama de Janela</h5>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Conteúdo dos detalhes do produto aqui -->Cama de Janela
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-sm-6 col-md-5 col-xl-3 product custom-product-height">
             <div id="carouselCasinha" class="carousel slide carousel-dark custom-carousel-item-height">

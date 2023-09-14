@@ -58,10 +58,12 @@
     font-size: 1.2rem;
     width: 15%;
     border-radius: 10px;
+    /* position: relative; */
 }
 
 .custom-carousel-item-height{
-    height: 29vh;
+    height: 32vh;
+    /* z-index: 1; */
 }
 
 .back{
@@ -71,7 +73,7 @@
 @media screen and (max-width: 992px){
     .product{
         margin: 1.8% auto;
-        height: 98vh;
+        height: 99.5vh;
         font-size: 1.2rem;
         width: 30%;
     }
@@ -85,7 +87,7 @@
     }
     
     .custom-product-height{
-        height: 75vh;
+        height: 73.5vh;
         margin: 2% auto 0;
         width: 30%;
     }
@@ -98,7 +100,7 @@
 @media screen and (max-width: 576px){
     .product{
         margin: 2% auto;
-        height: 41vh;
+        height: 42vh;
         font-size: 1.2rem;
         width: 45%;
     }
