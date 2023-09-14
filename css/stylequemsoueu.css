@@ -24,6 +24,10 @@
     height: 5vh;
 }
 
+.back{
+    margin: 1rem;
+}
+
 @media screen and (max-width: 992px){
     .pagebody{
         margin: auto 20%;

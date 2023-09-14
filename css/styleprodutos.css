@@ -51,23 +51,25 @@
 }
 
 .custom-product-height{
-    height: 42.5vh;
+    height: 41.4vh;
     background-color: rgba(0, 0, 0, 0.1);
     padding-top: .8rem;
     margin: 1% auto 0;
     font-size: 1.2rem;
     width: 15%;
     border-radius: 10px;
-    /* position: relative; */
 }
 
 .custom-carousel-item-height{
-    height: 32vh;
-    /* z-index: 1; */
+    height: 28vh;
 }
 
 .back{
     margin: auto;
+}
+
+.custom-carousel-inner{
+    height: 32vh;
 }
 
 @media screen and (max-width: 992px){
