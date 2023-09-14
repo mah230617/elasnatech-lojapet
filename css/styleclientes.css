@@ -19,8 +19,7 @@
 
 @media screen and (max-width: 992px){
     .pagebody{
-        width: 75%;
-        border: 1px solid red;
+        margin: auto 5%;
     }
 }
 
@@ -34,8 +33,7 @@
     }
     
     .pagebody{
-        margin: 2vh 8vw;
-        width: 100%;
+        margin: auto 5%;
     }
     
     .custom-fieldset{
