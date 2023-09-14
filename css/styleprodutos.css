@@ -64,6 +64,10 @@
     height: 29vh;
 }
 
+.back{
+    margin: auto;
+}
+
 @media screen and (max-width: 992px){
     .product{
         margin: 1.8% auto;
