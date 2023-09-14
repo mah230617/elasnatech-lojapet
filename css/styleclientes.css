@@ -33,7 +33,7 @@
     }
     
     .pagebody{
-        margin: auto 5%;
+        width: 100vw;
     }
     
     .custom-fieldset{
