@@ -100,11 +100,27 @@
     }
     
     .custom-carousel-item-height{
-        height: 42vh;
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .product{
+        height: 35vh;
+    }
+
+    .carousel-item {
+        height: 69vh;
+        border: 1px solid red;
     }
 }
 
 @media screen and (max-width: 576px){
+    
+    .back{
+        border: 2px solid blue;
+    }
+    
     .product{
         margin: 2% auto;
         height: 42vh;
@@ -130,9 +146,5 @@
     
     .custom-carousel-item-height{
         height: 20vh;
-    }
-
-    .back{
-        margin: 5px auto 20px;
     }
 }
