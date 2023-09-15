@@ -72,6 +72,12 @@
     height: 32vh;
 }
 
+.carousel-control-btn{
+    border: 1px solid red;
+    margin: auto;
+    height: 10%;
+}
+
 @media screen and (max-width: 992px){
     .product{
         margin: 1.8% auto;
