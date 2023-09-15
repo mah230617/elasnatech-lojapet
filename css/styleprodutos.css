@@ -6,11 +6,13 @@
 
 .product{
     background-color: rgba(0, 0, 0, 0.1);
+    padding: 0;
     padding-top: .8rem;
     margin: .8% auto 0;
     height: 55.5vh;
     width: 15%;
     border-radius: 10px;
+    /* border: 1px solid black; */
 }
 
 .product:hover{
@@ -43,6 +45,8 @@
 
 .carousel-item {
     height: 42vh;
+    /* border: 1px solid blue; */
+    margin: auto 0;
 }
 
 .carousel-item .product .productname {
@@ -68,14 +72,23 @@
     margin: auto;
 }
 
+
 .custom-carousel-inner{
     height: 32vh;
 }
 
+.carousel{
+    margin: 0;
+}
+
+.carousel-inner{
+    width: 100%;
+    margin: 0;
+}
+
 .carousel-control-btn{
-    border: 1px solid red;
     margin: auto;
-    height: 10%;
+    width: 8%;
 }
 
 @media screen and (max-width: 992px){
