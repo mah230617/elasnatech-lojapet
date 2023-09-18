@@ -150,3 +150,22 @@
         height: 27vh;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .product{
+        height: 36vh;
+    }
+
+    .carousel-item {
+        height: 26vh;
+        border: 1px solid red;
+    }
+    
+    .custom-carousel-item-height{
+        height: 20vh;
+    }
+
+    .custom-product-height{
+        height: 32vh;
+    }
+}
