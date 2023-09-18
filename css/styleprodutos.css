@@ -153,19 +153,19 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .product{
-        height: 36vh;
+        height: 39vh;
     }
 
     .carousel-item {
-        height: 26vh;
-        border: 1px solid red;
+        height: 27vh;
+        border: 1px solid blue;
     }
     
     .custom-carousel-item-height{
-        height: 20vh;
+        height: 17vh;
     }
 
     .custom-product-height{
-        height: 32vh;
+        height: 33vh;
     }
 }
