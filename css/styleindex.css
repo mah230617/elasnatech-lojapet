@@ -22,13 +22,17 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-.title{
-    font-size: 15rem;
-    border: 1px solid red;
+    .title{
+    font-size: 55rem;
+    border: 1px solid blue;
     }
 
     .subtitle{
-        font-size: 3rem;
+        font-size: 8rem;
+    }
+
+    .biglogo{
+        height: 49vh;
     }
 }
 

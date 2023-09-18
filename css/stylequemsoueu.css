@@ -34,6 +34,7 @@
 
     .social-icon{
     height: 3.5vh;
+    border: 1px solid blue;
     }
 }
 
