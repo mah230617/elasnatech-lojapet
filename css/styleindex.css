@@ -21,6 +21,21 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .title{
+    font-size: 15rem;
+    border: 1px solid blue;
+    }
+
+    .subtitle{
+        font-size: 3rem;
+    }
+
+    .biglogo{
+        height: 49vh;
+    }
+}
+
 @media screen and (max-width: 992px){
     .title{
         font-size: 3.5rem;
@@ -48,20 +63,5 @@
 
     .biglogo{
         width: 80%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .title{
-    font-size: 15rem;
-    border: 1px solid yellow;
-    }
-
-    .subtitle{
-        font-size: 3rem;
-    }
-
-    .biglogo{
-        height: 49vh;
     }
 }
