@@ -27,17 +27,6 @@
     margin: 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .profilephoto{
-        width: 60%;
-    }
-
-    .social-icon{
-    height: 3.5vh;
-    border: 1px solid blue;
-    }
-}
-
 @media screen and (max-width: 992px){
     .pagebody{
         margin: auto 20%;
@@ -70,5 +59,16 @@
 
     .back{
         margin: 1rem auto 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .profilephoto{
+        width: 50%;
+    }
+
+    .social-icon{
+    height: 4vh;
+    border: 1px solid yellow;
     }
 }
