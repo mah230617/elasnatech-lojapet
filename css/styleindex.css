@@ -38,12 +38,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .title{
-    font-size: 15rem;
-    border: 1px solid blue;
+    font-size: 10rem;
+    border: 1px solid red;
     }
 
     .subtitle{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .biglogo{

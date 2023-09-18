@@ -104,12 +104,7 @@
     }
 }
 
-@media screen and (max-width: 576px){
-    
-    .back{
-        border: 2px solid blue;
-    }
-    
+@media screen and (max-width: 576px){ 
     .product{
         margin: 2% auto;
         height: 42vh;
