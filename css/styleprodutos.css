@@ -106,7 +106,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .product{
-        height: 33vh;
+        height: 35vh;
     }
 
     .carousel-item {
@@ -114,12 +114,11 @@
     }
     
     .custom-carousel-item-height{
-        /* border: 1px solid red; */
         height: 16vh;
     }
 
     .custom-product-height{
-        height: 25vh;
+        height: 27vh;
     }
 }
 
