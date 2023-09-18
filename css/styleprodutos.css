@@ -161,11 +161,10 @@
     }
     
     .custom-carousel-item-height{
-        border: 1px solid blue;
         height: 18vh;
     }
 
     .custom-product-height{
-        height: 30.5vh;
+        height: 31vh;
     }
 }
